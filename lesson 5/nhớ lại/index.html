@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //đẩy giá trị lên local
+        localStorage.setItem("sdt", 0904545419);
+        //lấy giá trị xuống và gán vào một biến nào đó
+        let sdt = localStorage.getItem("sdt");
+        console.log(sdt);
+        //xáo giá trị của local có key giống với key truyền vào
+        localStorage.removeItem("sdt");
+        //xóa tất cả
+        localStorage.clear();
+    </script>
+</body>
+</html>

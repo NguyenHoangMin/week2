@@ -1,0 +1,11 @@
+
+.p{
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+span{
+   text-align: right; 
+}
+.menu{
+ text-align: right;
+}

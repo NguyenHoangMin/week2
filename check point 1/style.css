@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.item2{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.container{
+    display:flex;
+    padding: 0 500px;
+    margin-top: 70px
+
+}
+.pic1{
+    width: 185px;
+}
+.pic2{
+    width: 280px;
+}
+.pic3{
+    width: 280px;
+}
+.pic4{
+    width: 225px;
+}
+div{
+    
+}
